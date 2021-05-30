@@ -1,0 +1,30 @@
+ENGLISH_HW_UC_classfier_model_better_starting_point_learning_rate_0.001_epochs_100_datetime_30_05_2021_04_57_44
+
+Starting Training...
+Epoch 0: train=0.908317 test=0.901250
+Epoch 5: train=0.951651 test=0.932308
+Epoch 10: train=0.960072 test=0.934615
+Epoch 15: train=0.965649 test=0.937067
+Epoch 20: train=0.968373 test=0.935673
+Epoch 25: train=0.968446 test=0.930865
+Epoch 30: train=0.971162 test=0.932115
+Epoch 35: train=0.971362 test=0.933269
+Epoch 40: train=0.971018 test=0.930577
+Epoch 45: train=0.975016 test=0.932212
+Epoch 50: train=0.976218 test=0.934712
+Epoch 55: train=0.976883 test=0.932548
+Epoch 60: train=0.977580 test=0.932163
+Epoch 65: train=0.977756 test=0.932260
+Epoch 70: train=0.978646 test=0.932452
+Epoch 75: train=0.980128 test=0.932115
+Epoch 80: train=0.980609 test=0.932981
+Epoch 85: train=0.980288 test=0.932885
+Epoch 90: train=0.980841 test=0.931058
+Epoch 95: train=0.982059 test=0.933462
+
+Training Complete...
+
+Final Model saved at  saved_model/EMNIST3/ENGLISH_HW_UC_classfier_model_better_starting_point_learning_rate_0.001_epochs_100_datetime_30_05_2021_04_57_44
+
+Final Evaluation
+train=0.978822 test=0.929952
