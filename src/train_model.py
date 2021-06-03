@@ -34,9 +34,6 @@ class MODEL_STEP:
                 
         create_graph, retain_graph = True, True
         
-        # if order == 1:
-        #     create_graph, retain_graph = False, False
-        
         self.optim.zero_grad()
 
         weight = OrderedDict(self.net.named_parameters())
@@ -44,8 +41,7 @@ class MODEL_STEP:
         for batch_X, batch_y in dataloader:
             inputs = batch_X.to(self.device)
             labels = batch_y.to(self.device)
-            labels = labels - 1
-            # labels = F.one_hot(labels, num_classes=26)
+            labels = labels - 1 #since labels are with 1 based indexing ,need to change to zero based
 
             try:
                 logits = self.net.functional_forward(inputs, weight, train_mode=True)
