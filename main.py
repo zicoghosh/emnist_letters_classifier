@@ -1,6 +1,4 @@
 """
-Name : Surjayan Ghosh
-Roll : CS1926
 Date : 29/05/2021
 
 DPR Assignment 4 : Handwritten Upper-Case English Character Recognition using Convolution Neural Network
