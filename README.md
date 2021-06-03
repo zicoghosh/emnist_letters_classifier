@@ -1,3 +1,3 @@
 # EMNIT_Classifier
- Classifier forEMNIST Hand written Upper Case letters of the English Alphabet
+ Classifier for EMNIST-letters Hand written English Alphabets.
 Pytorch
